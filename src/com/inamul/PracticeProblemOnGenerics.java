@@ -1,8 +1,8 @@
 package com.inamul;
 
 public class PracticeProblemOnGenerics{
-    public static <Integer extends Comparable<Integer>> Integer testMaximum(Integer x, Integer y, Integer z){
-        Integer max = x;
+    public static <Float extends Comparable<Float>> Float testMaximum(Float x, Float y, Float z){
+        Float max = x;
         if (y.compareTo(max)>0){
             max = y;
         }
@@ -13,6 +13,6 @@ public class PracticeProblemOnGenerics{
     }
 
     public static void main(String[] args) {
-        System.out.println("Maximum is: "+testMaximum(75,102,255));
+        System.out.println("Maximum is: "+testMaximum(10.8, 15.2,12.4));
     }
 }
