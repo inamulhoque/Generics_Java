@@ -13,6 +13,6 @@ public class PracticeProblemOnGenerics{
     }
 
     public static void main(String[] args) {
-        System.out.println("Maximum is: "+testMaximum(75,23,55));
+        System.out.println("Maximum is: "+testMaximum(75,102,55));
     }
 }
